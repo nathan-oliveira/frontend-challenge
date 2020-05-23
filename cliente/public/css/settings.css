@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+.nav-text {
+	font-family: 'Berkshire Swash' !important;
+}
+
+.nav-link, .dropdown-item {
+  cursor: pointer;
+}
+
+fieldset {
+  border: 1px solid rgba(175, 175, 175, 0.836) !important;
+  padding: 0 1em 1em 1em !important;
+  margin: 0.5em 0 !important;
+  border-radius: 9px !important;
+}
+
+legend {
+  padding: 0.2em 0.5em !important;
+  border: 1px solid rgba(175, 175, 175, 0.836) !important;
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+  width: auto !important;
+  border-radius: 9px !important;
+  text-align: left !important;
+}
+
+.btn-primary {
+  background-color: #428bca !important;
+  border-color: #357ebd !important;
+}
+
+.btn-xs {
+  padding: 4px 5px !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  border-radius: 3px !important;
+}
+
+.tr-line {
+  line-height: 0.8 !important;
+}
+
+.button-action {
+  width: 160px !important;
+  text-align: center;
+}

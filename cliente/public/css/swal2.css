@@ -1,0 +1,30 @@
+.swal2-icon.swal2-warning {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.swal2-title {
+  font-size: 1.3em !important;
+}
+
+.swal2-content {
+  font-size: 1em !important;
+}
+
+.swal2-styled.swal2-confirm {
+  font-size: 0.8em !important;
+}
+
+.swal2-styled.swal2-cancel {
+  font-size: 0.8em !important;
+}
+
+.swal2-modal {
+  width: 300px !important;
+}
+
+.swal2-styled {
+  background-color: rgba(160, 38, 38, 0.808) !important;
+  border-left-color: rgba(160, 38, 38, 0.808) !important;
+  border-right-color: rgba(160, 38, 38, 0.808) !important;
+}
