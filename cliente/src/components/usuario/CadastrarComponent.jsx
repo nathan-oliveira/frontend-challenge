@@ -12,7 +12,7 @@ class CadastrarComponent extends Component {
     this.state = { id: '', name: '', username:'', email: '', phone: '', avatar: '', SweetAlert: false }
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const userId = +this.props.match.params.id;
     if(userId) {
       this.props.findUserById(userId);
@@ -48,6 +48,7 @@ class CadastrarComponent extends Component {
 
     if(isValid) {
       this.props.saveUsers(this.state)
+      this.props.history.push('/')
     }
   }
 
@@ -57,6 +58,7 @@ class CadastrarComponent extends Component {
 
     if(isValid) {
       this.props.updateUsers(this.state.id, this.state)
+      this.props.history.push('/')
     }
   }
 

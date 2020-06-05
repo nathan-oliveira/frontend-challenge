@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { showUsers, deleteUser } from '../../actions';
 
 class HomeComponent extends Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.showUsers()
   }
 
